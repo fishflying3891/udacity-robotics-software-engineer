@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='myrobot'>
+  <model name='robot'>
     <link name='link_0'>
       <pose frame=''>0 0 0.2 0 -0 0</pose>
       <inertial>
