@@ -1,2 +1,2 @@
-fisrt_package:simple_arm
--DCATKIN_DEVEL_PREFIX=/home/workspace/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/workspace/catkin_ws/install -G Unix Makefiles
+my_robot
+-DCATKIN_DEVEL_PREFIX=/home/workspace/udacity-robotics-software-engineer/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/workspace/udacity-robotics-software-engineer/catkin_ws/install -G Unix Makefiles
