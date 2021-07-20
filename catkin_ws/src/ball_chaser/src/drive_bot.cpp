@@ -11,7 +11,7 @@ public:
     pub_ = n_.advertise<geometry_msgs::Twist>("/cmd_vel", 10);
 
     //Topic you want to subscribe
-    srv_ = n_.advertiseService("/ball_chaser/DriveToTarget", &DriveBot::handle_drive_request_callback, this);
+    srv_ = n_.advertiseService("/ball_chaser/command_robot", &DriveBot::handle_drive_request_callback, this);
   }
 
   bool handle_drive_request_callback(ball_chaser::DriveToTarget::Request& req, ball_chaser::DriveToTarget::Response& res)
