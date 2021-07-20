@@ -33,24 +33,30 @@ public:
     static int action = -1;
 
     const int white_pixel = 255;
-    const int margin = 100;
+    const int margin = 50;
 
     int i, j;
+    bool white_pixel_found = false;
 
     // Loop through each pixel in the image and check if there's a bright white one
     for (i = 0; i < img.height; i++)
     {
-      for (j = 0; j< img.step; j++)
+      for (j = 0; j< img.width; j++)
       {
-        if (img.data[i*img.step+j] == white_pixel)
+        if ((img.data[i*img.step+j*3]   == white_pixel) &&
+            (img.data[i*img.step+j*3+1] == white_pixel) &&
+            (img.data[i*img.step+j*3+2] == white_pixel))
+        {
+          white_pixel_found = true;
           break;
+        }
       }
-      if (img.data[i*img.step+j] == white_pixel)
+      if (white_pixel_found)
         break;
     }
 
     // Request a stop when there's no white ball seen by the camera
-    if ((i == img.height) && (j == img.step))
+    if ((i == img.height) && (j == img.width))
     {
       if (action != 0)
       {
@@ -64,7 +70,7 @@ public:
       //ROS_INFO("Found the ball at row = %d, col = %d", i, j);
 
       // The ball is on the right so turn right
-      if (j > (img.step / 2 + margin))
+      if (j > (img.width / 2 + margin))
       {
         if (action != 1)
         {
@@ -74,7 +80,7 @@ public:
         }
       }
       // The ball is on the left so turn left
-      else if (j < (img.step / 2 - margin))
+      else if (j < (img.width / 2 - margin))
       {
         if (action != 2)
         {
