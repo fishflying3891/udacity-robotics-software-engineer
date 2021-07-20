@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD="/home/workspace/udacity-robotics-software-engineer/catkin_ws/build"
-export PYTHONPATH="/home/workspace/udacity-robotics-software-engineer/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
