@@ -5,7 +5,8 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
-subdirs(turtlebot_gazebo)
-subdirs(turtlebot_simulator)
-subdirs(turtlebot_stage)
-subdirs(turtlebot_stdr)
+subdirs(turtlebot_simulator-melodic/turtlebot_gazebo)
+subdirs(turtlebot_simulator-melodic/turtlebot_simulator)
+subdirs(turtlebot_simulator-melodic/turtlebot_stage)
+subdirs(turtlebot_simulator-melodic/turtlebot_stdr)
+subdirs(robot_pose_ekf-master)
