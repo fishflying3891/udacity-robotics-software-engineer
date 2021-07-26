@@ -308,6 +308,30 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//Value Computed by CMake
+turtlebot_gazebo_BINARY_DIR:STATIC=/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot_gazebo
+
+//Value Computed by CMake
+turtlebot_gazebo_SOURCE_DIR:STATIC=/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/src/turtlebot_gazebo
+
+//Value Computed by CMake
+turtlebot_simulator_BINARY_DIR:STATIC=/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot_simulator
+
+//Value Computed by CMake
+turtlebot_simulator_SOURCE_DIR:STATIC=/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/src/turtlebot_simulator
+
+//Value Computed by CMake
+turtlebot_stage_BINARY_DIR:STATIC=/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot_stage
+
+//Value Computed by CMake
+turtlebot_stage_SOURCE_DIR:STATIC=/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/src/turtlebot_stage
+
+//Value Computed by CMake
+turtlebot_stdr_BINARY_DIR:STATIC=/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot_stdr
+
+//Value Computed by CMake
+turtlebot_stdr_SOURCE_DIR:STATIC=/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/src/turtlebot_stdr
+
 
 ########################
 # INTERNAL cache entries
@@ -410,7 +434,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

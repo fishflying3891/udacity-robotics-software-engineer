@@ -126,6 +126,10 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/gtest/cmake_install.cmake")
+  include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot_gazebo/cmake_install.cmake")
+  include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot_simulator/cmake_install.cmake")
+  include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot_stage/cmake_install.cmake")
+  include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot_stdr/cmake_install.cmake")
 
 endif()
 
