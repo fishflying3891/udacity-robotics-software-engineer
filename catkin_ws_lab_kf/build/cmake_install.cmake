@@ -126,11 +126,18 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/gtest/cmake_install.cmake")
+  include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/main/cmake_install.cmake")
+  include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot-melodic/turtlebot/cmake_install.cmake")
+  include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot-melodic/turtlebot_bringup/cmake_install.cmake")
+  include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot-melodic/turtlebot_capabilities/cmake_install.cmake")
   include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot_simulator-melodic/turtlebot_gazebo/cmake_install.cmake")
   include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot_simulator-melodic/turtlebot_simulator/cmake_install.cmake")
   include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot_simulator-melodic/turtlebot_stage/cmake_install.cmake")
   include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot_simulator-melodic/turtlebot_stdr/cmake_install.cmake")
+  include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/odom_to_trajectory-master/cmake_install.cmake")
   include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/robot_pose_ekf-master/cmake_install.cmake")
+  include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot-melodic/turtlebot_teleop/cmake_install.cmake")
+  include("/home/workspace/udacity-robotics-software-engineer/catkin_ws_lab_kf/build/turtlebot-melodic/turtlebot_description/cmake_install.cmake")
 
 endif()
 
