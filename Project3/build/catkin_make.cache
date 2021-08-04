@@ -1,0 +1,2 @@
+my_robot:pgm_map_creator-master
+-DCATKIN_DEVEL_PREFIX=/home/workspace/udacity-robotics-software-engineer/Project3/devel -DCMAKE_INSTALL_PREFIX=/home/workspace/udacity-robotics-software-engineer/Project3/install -G Unix Makefiles
