@@ -1,0 +1,2 @@
+my_robot:pgm_map_creator-master:rtabmap_ros-master:teleop_twist_keyboard-master
+-DCATKIN_DEVEL_PREFIX=/home/workspace/udacity-robotics-software-engineer/Project4/devel -DCMAKE_INSTALL_PREFIX=/home/workspace/udacity-robotics-software-engineer/Project4/install -G Unix Makefiles
